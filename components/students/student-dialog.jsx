@@ -248,7 +248,7 @@ export function StudentDialog({ open, onOpenChange, student }) {
               Cancel
             </Button>
             {isEditing ? (<Button type="submit" className="w-full sm:w-auto">
-               "Update Student"
+              &quot;Update Student&quot;
             </Button>) : <Button>
               {isLoading ? <Loader2 className="animate-spin"/> : "Add Student"}
               </Button>}
